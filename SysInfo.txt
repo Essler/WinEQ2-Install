@@ -1,0 +1,164 @@
+WinEQ 2 System Information
+System:
+-----------------------------------
+Windows Version: Windows 10 Pro//14393.rs1_release.161110-2025
+System Physical RAM: 11443/16245MB
+Page File: 12577/18677MB
+Virtual Memory: 1346/2047MB (Extended: 0MB)
+CPU 1: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz @ 3500MHz
+CPU 2: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz @ 3500MHz
+CPU 3: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz @ 3500MHz
+CPU 4: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz @ 3500MHz
+CPU Affinity Mask: 1
+Video 1: \\.\DISPLAY1/NVIDIA GeForce GTX 970
+Video 2: \\.\DISPLAY2/NVIDIA GeForce GTX 970
+Video 3: \\.\DISPLAY3/NVIDIA GeForce GTX 970
+Video 4: \\.\DISPLAY4/NVIDIA GeForce GTX 970
+Video 5: \\.\DISPLAY5/Intel(R) HD Graphics 4600
+Video 6: \\.\DISPLAY6/Intel(R) HD Graphics 4600
+Video 7: \\.\DISPLAY7/Intel(R) HD Graphics 4600
+Monitor 1: \\.\DISPLAY1 (0,0,1920,1080) (1920x1080) PRIMARY
+Monitor 2: \\.\DISPLAY2 (1920,0,3840,1080) (1920x1080)
+Sound: ¨
+DirectX: 4.09.00.0904
+Internet Explorer: 9.11.14393.0
+WinEQ: 2.15
+
+Loaded Modules:
+-----------------------------------
+Module 0: D:\Games\EverQuest P99\eqgame.exe
+Module 1: C:\WINDOWS\SYSTEM32\ntdll.dll
+Module 2: C:\WINDOWS\System32\KERNEL32.DLL
+Module 3: C:\WINDOWS\System32\KERNELBASE.dll
+Module 4: C:\WINDOWS\system32\apphelp.dll
+Module 5: C:\WINDOWS\System32\IMM32.dll
+Module 6: C:\WINDOWS\System32\USER32.dll
+Module 7: C:\WINDOWS\System32\win32u.dll
+Module 8: C:\WINDOWS\System32\GDI32.dll
+Module 9: C:\WINDOWS\System32\gdi32full.dll
+Module 10: C:\WINDOWS\SYSTEM32\WINMM.dll
+Module 11: C:\WINDOWS\System32\ADVAPI32.dll
+Module 12: C:\WINDOWS\System32\msvcrt.dll
+Module 13: C:\WINDOWS\SYSTEM32\WSOCK32.dll
+Module 14: C:\WINDOWS\SYSTEM32\DINPUT8.dll
+Module 15: C:\WINDOWS\System32\sechost.dll
+Module 16: C:\WINDOWS\System32\RPCRT4.dll
+Module 17: C:\WINDOWS\System32\WS2_32.dll
+Module 18: C:\WINDOWS\System32\SspiCli.dll
+Module 19: C:\WINDOWS\System32\CRYPTBASE.dll
+Module 20: C:\WINDOWS\System32\bcryptPrimitives.dll
+Module 21: C:\WINDOWS\System32\SHELL32.dll
+Module 22: C:\WINDOWS\System32\cfgmgr32.dll
+Module 23: D:\Games\EverQuest P99\DSETUP.dll
+Module 24: C:\WINDOWS\System32\windows.storage.dll
+Module 25: C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+Module 26: C:\WINDOWS\System32\combase.dll
+Module 27: C:\WINDOWS\System32\ucrtbase.dll
+Module 28: C:\WINDOWS\System32\powrprof.dll
+Module 29: C:\WINDOWS\System32\shlwapi.dll
+Module 30: C:\WINDOWS\System32\kernel.appcore.dll
+Module 31: C:\WINDOWS\System32\shcore.dll
+Module 32: C:\WINDOWS\System32\profapi.dll
+Module 33: C:\WINDOWS\System32\ole32.dll
+Module 34: D:\Games\EverQuest P99\mss32.dll
+Module 35: C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.14393.447_none_5507ded2cb4f7f4c\comctl32.dll
+Module 36: C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+Module 37: D:\Programs\WinEQ2\WinEQ2.dll
+Module 38: C:\WINDOWS\System32\PSAPI.DLL
+Module 39: C:\WINDOWS\Lavish.dll
+Module 40: C:\WINDOWS\system32\mswsock.dll
+Module 41: C:\WINDOWS\system32\napinsp.dll
+Module 42: C:\WINDOWS\system32\pnrpnsp.dll
+Module 43: C:\WINDOWS\system32\NLAapi.dll
+Module 44: C:\WINDOWS\SYSTEM32\DNSAPI.dll
+Module 45: C:\WINDOWS\System32\NSI.dll
+Module 46: C:\WINDOWS\System32\winrnr.dll
+Module 47: C:\WINDOWS\System32\fwpuclnt.dll
+Module 48: C:\WINDOWS\SYSTEM32\bcrypt.dll
+Module 49: C:\Windows\System32\rasadhlp.dll
+Module 50: D:\Programs\WinEQ2\WinEQ2-EQ.DLL
+Module 51: C:\WINDOWS\SYSTEM32\MSIMG32.dll
+Module 52: D:\Programs\WinEQ2\WinEQ2-D3D9.dll
+Module 53: C:\WINDOWS\SYSTEM32\d3d9.dll
+Module 54: C:\WINDOWS\SYSTEM32\dwmapi.dll
+Module 55: D:\Programs\WinEQ2\WinEQ2-D3D8.dll
+Module 56: D:\Programs\WinEQ2\WinEQ2-DI8.dll
+Module 57: C:\WINDOWS\system32\uxtheme.dll
+Module 58: C:\WINDOWS\System32\MSCTF.dll
+Module 59: C:\WINDOWS\System32\OLEAUT32.dll
+Module 60: C:\WINDOWS\System32\msvcp_win.dll
+Module 61: D:\Programs\WinEQ2\EQPlayNice.dll
+Module 62: C:\WINDOWS\SYSTEM32\ntmarta.dll
+Module 63: D:\Games\EverQuest P99\EQGraphicsDX9.DLL
+Module 64: D:\Games\EverQuest P99\dpvs.dll
+Module 65: C:\WINDOWS\SYSTEM32\VERSION.dll
+Module 66: C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPI.dll
+Module 67: C:\WINDOWS\System32\SETUPAPI.dll
+Module 68: C:\WINDOWS\SYSTEM32\HID.DLL
+Module 69: C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+Module 70: C:\WINDOWS\System32\WINTRUST.dll
+Module 71: C:\WINDOWS\System32\MSASN1.dll
+Module 72: C:\WINDOWS\System32\CRYPT32.dll
+Module 73: C:\WINDOWS\SYSTEM32\MSACM32.dll
+Module 74: C:\WINDOWS\SYSTEM32\MMDevAPI.DLL
+Module 75: C:\WINDOWS\SYSTEM32\PROPSYS.dll
+Module 76: C:\WINDOWS\SYSTEM32\wdmaud.drv
+Module 77: C:\WINDOWS\SYSTEM32\ksuser.dll
+Module 78: C:\WINDOWS\SYSTEM32\AVRT.dll
+Module 79: C:\WINDOWS\SYSTEM32\AUDIOSES.DLL
+Module 80: C:\WINDOWS\SYSTEM32\wintypes.dll
+Module 81: C:\WINDOWS\SYSTEM32\msacm32.drv
+Module 82: C:\WINDOWS\SYSTEM32\midimap.dll
+Module 83: C:\WINDOWS\System32\clbcatq.dll
+Module 84: C:\WINDOWS\SYSTEM32\DSOUND.DLL
+Module 85: C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_674733509ab83d72\nvd3dum.dll
+Module 86: C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+Module 87: C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+Module 88: D:\Games\EverQuest P99\eqmain.dll
+
+Direct3D9:
+-----------------------------------
+Driver: NVIDIA GeForce GTX 970/nvd3dum.dll/21/21/13/7290
+Adapter Display Mode: 1920x1080 D3DFMT_X8R8G8B8
+Game Display Mode: 1920x1080 D3DFMT_X8R8G8B8 (Windowed)
+Current Adapter: 0
+Available Texture Memory: 4084MB
+Direct3D8:
+-----------------------------------
+Adapter Display Mode: 0x0 D3DFMT_UNKNOWN
+Game Display Mode: 0x0 D3DFMT_UNKNOWN
+Current Adapter: 0
+Available Texture Memory: (not currently available)
+DirectInput8:
+-----------------------------------
+
+EverQuest:
+-----------------------------------
+Profile 1: WinEQ 2.0 Default Profile
+EQ Path: D:\Games\EverQuest P99
+EQClient.ini: .\eqclient.ini
+Patch: OFF  Server Type: Normal  Locale: us
+Video Adapter: Application Controlled
+Luclin models: 3 (+15 min RAM)
+Sound: ON (+22 min RAM)
+Dynamic Lighting: ON (+4 min RAM)
+Texture Quality: 1. HIGH (+32 min RAM)
+Calculated minimum RAM: 356MB (BASE+73MB)
+Level of Detail: 0
+MaxFPS: 100
+Additional setting: VertexShaders=TRUE
+Additional setting: 20PixelShaders=TRUE
+Additional setting: 1xPixelShaders=TRUE
+
+EQPlayNice:
+-----------------------------------
+EQPlayNice version: 1.22
+EQ Version: eqgame.exe Oct 31 2005 10:33:37
+Foreground
+Mode: FPS Limiter
+Max FPS: 40
+Rendering: 1/1
+Background
+Mode: CPU Limiter
+Max FPS: 30
+Rendering: 1/30

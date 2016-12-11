@@ -1,0 +1,719 @@
+                 WinEQ 2.0
+(c) 2004-2012 Lavish Software, All rights reserved.
+---------------------------------------------------
+Haven't tried out ISBoxer yet? ISBoxer is our current generation of multiboxing software, with many
+benefits over WinEQ 2, including the ability to send keystrokes to your other windows! Why alt+tab just
+to heal yourself with an alt?! If you are a paying WinEQ 2 customer, your subscription also covers ISBoxer,
+check out the web site at ISBoxer.com for more information! Using the free version of WinEQ 2? Apply
+for a FREE 7 day trial of ISBoxer and see what you're missing!
+
+Changelog
+
+2.15 - 10/7/2012
+- All Games
+  * WinEQ 2 now requests Administrator permissions, and a useful message replaces the old "-20" error
+- EverQuest 1
+  * Fixed breakage issues with the current EQ1 Test server build, in which SOE has decided to compile
+    with different options.
+  * The Patch option is disabled for this game, WinEQ 2 will launch the game directly
+
+2.15 - 8/19/2010
+- EverQuest 2
+  * Fixed error after logging into a character
+
+2.15 - 8/20/2009
+- EverQuest 1
+  * Added support for EQGraphicsDX9Orig.dll
+
+2.15 - 11/26/2008
+- All games
+  * We have reverted the DirectX 9 update requirement to the April 2006 or later update (the same
+    as was previously required). Yesterday's update confused an abnormally high number of users due 
+    to Microsoft's current DirectX 9 updater problem. Please note that WinEQ 2 does not reqiure you
+    to "install DirectX 9.0c". We are aware that everyone already has DirectX 9.0c, which came out
+    in 2004, and this is not what the update requirement is. Microsoft releases an update to
+    DirectX 9 every 2 months, and these updates are still classified as DirectX 9.0c. 
+    
+    While we apologize for the confusion, please be aware that sometime in the future (long after the
+    simplified update process is fixed at Microsoft) there will likely be a required update. Many new
+    games require these updates as well.
+
+2.15 - 11/25/2008
+- All games
+  * WinEQ 2 now requires the March 2008 (or later) update to DirectX 9. Unfortunately at this time,
+    the Microsoft DirectX 9 updater fails to download the update when using the usual update method.
+    If WinEQ 2 complains to you about needing this update, you may need to use the following link:
+    http://www.microsoft.com/downloads/details.aspx?familyid=886ACB56-C91A-4A8E-8BB8-9F20F1244A8E&displaylang=en
+    Once downloaded, you will need to install it into a temporary folder. It will install a DXSETUP,
+    which you will need to run. After doing so, the temporary folder can be removed. 
+- EverQuest II
+  * Fixed problems introduced by today's EverQuest II patch
+
+2.15 - 10/04/2008
+- All games
+  * Fixed sticky CTRL / ALT / SHIFT keys once and for all
+
+2.15 - 01/19/2008
+- EverQuest 1
+ * Fixed "resolution reset" bug when changing game resolution with EverQuest itself in Full Screen 
+   mode.
+
+2.15 - 11/27/2007
+- EverQuest 1
+ * EverQuest's new functionality of setting CPU affinity (the cores on which to run a game session)
+   is now disabled if WinEQ's CPU affinity functionality is enabled. The WinEQ setting is found
+   in the WinEQ 2.0, General category.
+
+2.15 - 11/16/2007
+- EverQuest 1
+  * EQPlayNice functionality has been restored
+
+2.15 - 10/8/2007
+- This follow-up patch fixes crashes relating to the display of overlayed text, such as when
+  using Reset Window, or when scaling the window size in EverQuest 2
+
+2.15 - 10/8/2007
+- Crashes that began as a result of the WinEQ 2 patch should now be fixed. As it is unclear 
+  exactly which bugs are now fixed and which are not, please continue reporting any problems,
+  as we may have assumed your issue has been solved by this fix.
+
+2.15 - 10/6/2007
+- EverQuest 1
+ * The vast majority of graphics-related issues should now be fixed. Please continue reporting
+   any problems.
+
+2.15 - 9/2/2007
+- EverQuest 1
+ * LaunchPad compatibility fixed
+ * Fixed loading-related crashes (including reload UI), hopefully (thanks Sam)
+
+2.15 - 7/17/2007
+- All games: 
+ * Fixed d3dx9_30.dll detection
+- EverQuest II
+ * Fixed mouselook issue caused by restoring the window by mouse after minimizing
+
+2.15 - 6/15/2007
+- EverQuest II
+ * Fixed bug where the game window could not be restored after minimizing
+
+2.15 - 6/9/2007
+- All games:
+ * Added various text descriptions of numeric error codes, along with suggestions as to how to
+   remedy the problems.
+- EverQuest II
+ * Fixed issue where clicking on an EQ2 session to activate it would trigger mouselook
+- World of Warcraft
+ * Fixed startup crashes
+
+2.14 - 8/26/2006
+- World of Warcraft:
+  * Fixed bugs with the title bar and borders with the WoW 1.12 patch
+  * Multiple monitor support for Pro users has been expanded to 4 monitors
+
+2.14 - 8/10/2006
+- EverQuest 1:
+  * Multiple monitor support for Pro users has been expanded to 4 monitors
+
+2.14 - 6/27/2006
+- All games:
+  * The April 2006 update to DirectX 9 is now required.  If this is not installed on your
+    system, a box will pop up upon running WinEQ 2 that will allow you to hit OK to be 
+    taken to the download, or hit Cancel to find it on your own.
+- EverQuest 1:
+  * Expanded Tiling support.  The scale factor, previously always 0.5 (half of the screen in each
+    direction, meaning an *area* of 1/4 of the screen), can now be set per profile based on foreground 
+    or background.  By default, the scale factor is now 0.6 for foreground sessions, and 0.5 for 
+    background.
+  * Fixed bug with moving the game window when using secondary display
+
+2.13 - 3/23/2006
+- All games:
+  * Fixed issue with untiling and re-tiling with profile-defined tiles
+  * Improved error messages from account verification
+
+2.13 - 2/6/2006
+- All games:
+  * This patch now uses D3DX dynamically linked (d3dx9_27.dll), which is handled by the patcher.
+  * Support for extra mouse buttons in WinEQ 2 hotkeys (not including Global Activation, which are
+    governed by Windows) has been added.  The key names are as follows:
+    ** MButton - Middle button
+    ** XButton1 - Left side button
+    ** XButton2 - Right side button
+    Note that XButton2 is not currently available in DirectInput games (EQ1 definitely, maybe DAOC), 
+    because DirectInput was originally designed for 4-button mice, not 5-button.  Newer DirectInput 
+    stuff supports 8-button, so I will have to do some conversion work.
+- Dark Age of Camelot:
+  * The issue that caused DAoC to close prematurely at startup should now be fixed
+- EverQuest:
+  * Fixed bug that hid the mouse cursor when using shift+right click to access the context menu
+  * Added EQ beta patcher support.  You can set your profile to use the beta server under the 
+    "Test/Beta Server" option.  The beta was previously usable with WinEQ 2 by using the appropriate
+    path and enabling the Test server option, with patching disabled.  EQPlayNice will not support 
+    the beta server, so you will see a popup from it saying it is not compatible, but WinEQ 2 will 
+    continue to work just fine.
+
+2.13 - 11/8/2005
+- EverQuest:
+  * Remaining mouse problems for WinEQ 2 Lite users should be solved
+
+2.13 - 11/4/2005
+- EverQuest:
+  * As of this patch, we believe we have solved problems related to the new EQ mouse code.  This
+    includes mouse clicks errantly dragging in-game windows, clicking outside of the window during
+    mouselook, mouse scaling (where the mouse position APPEARS to the upper left, or lower right
+    of where the actual cursor is), and so on.
+    
+    Please continue to report any problems you experience
+
+2.13 - 11/4/2005
+- EverQuest:
+  * The Shift+Right Click (by default) hotkey for showing the WinEQ context menu has returned.
+    Right clicking on the very top pixel of the game portion of the window will no longer display
+    the context menu
+  * The mouse is now resricted to the game window while the right mouse button is pressed.
+    Otherwise, the mouse actually travels beyond the window and may actually result in clicking
+    the close button or other such annoyances.
+  * An option has been added to stop WinEQ 2 Pro from removing the distortion that is otherwise 
+    present when using normal EQ windowed, EQWindows, WinEQ 2 Lite, WinEQ 1, etc.  The option is
+    called "Dont normalize" and is under EverQuest, General in the WinEQ 2 Preferences window
+
+2.12 - 11/2/2005
+- EverQuest:
+  * Full screen and windowed resolutions are now forced to be equal.  WinEQ 2 now starts with
+    the game set to full screen (which has no mouse cursor issues) instead of windowed (in
+    which EQ tries to do its own mouse scaling, but does not do it properly...).  The mouse
+    works correctly in both modes in our testing...
+
+2.12 - 11/1/2005
+- EverQuest:
+  * Fixed remaining mouse cursor scaling problems
+  * Fixed Picture-in-Picture defaults.  Apparently, no scale was set by default for PIP windows,
+    which confused many people.  Any profile with a PIP scale of 0 will have its PIP size and
+    position reset
+
+2.12 - 11/1/2005
+- EverQuest:
+  * Removed hotkey that used to bring up the same context menu that can be retrieved by clicking
+	on the game window's title bar.  The hotkey defaulted to Shift+Right Click and only existed
+	because you had to release the mouse to right click on the title bar before the recent EQ
+	patch.  Since this is no longer necessary and is now only an inconvenience, this has been
+	removed.
+  * WinEQ 2 Lite users should no longer have problems using EQ's stored window position
+
+2.12 - 11/1/2005
+- EverQuest:
+  * Fixed issue for WinEQ 2 Lite users described as the mouse location being in the MIDDLE
+    of the cursor, instead of at the point
+
+2.12 - 11/1/2005
+- EverQuest:
+  * Fixed mouse scaling issue if the window was scaled when switching the game itself from 
+    full screen to windowed mode
+
+2.12 - 10/30/2005
+- EverQuest:
+  * Fixed runaway mouse cursor with mouselook
+
+2.12 - 10/28/2005 and 10/29/2005
+- EverQuest:
+  * Updated for new mouse code
+  * Fixed full screen issues that were present
+  * Fixed resolution change issue due to new eqclient.ini settings
+  * Slowness issues due to extra debugging information from the new mouse code are fixed
+
+2.12 - 10/13/2005
+- WinEQ 2 is once again correctly setting CPU affinity for the correct number of prcoessors,
+  instead of 1 less than you really have (so on a 2 CPU system *sigh, including dual core and
+  hyperthreading*, it was only using the first CPU)
+- WinEQ 2 general preferences display issue fixed for good ;)
+- Auto-tiling now works properly
+
+2.12 - 10/9/2005
+- Fixed WinEQ 2 "General" preferences not saving and loading correctly
+- Fixed issue with CPU affinity setting
+
+2.12 - 9/26/2005
+- Display issue with WinEQ 2 "General" Preferences should be solved
+- All Games:
+  * Picture-in-Picture now defaults to ON per profile in new installations.  This should make it
+    easier for new subscribers to figure it out, as it would only require setting the master
+    switch in the main program.
+- Dark Age of Camelot
+  * Fixed "black screen" issue
+
+2.12 - 9/21/2005 pt 2
+- Added a "Set CPU Affinity" toggle in the WinEQ 2 General Preferences.  This defaults to on,
+  and should only be turned off if you are having problems.
+
+2.12 - 9/21/2005
+- Dark Age of Camelot
+  * /clientsleep behavior is now dependent on client version setting (Catacombs vs Atlantis),
+    and *should* now work correctly for both
+- EverQuest
+  * Hopefully fixed CPU usage for a few people who were having problems
+
+2.12 - 9/14/2005
+- Dark Age of Camelot
+  * Hopefully fixed other issue with /clientsleep :)
+- EverQuest 1
+  * Further improvements to CPU usage
+
+2.12 - 9/12/2005
+- Dark Age of Camelot
+  * Hopefully fixed issue with /clientsleep
+
+2.12 - 9/11/2005
+- All Games
+  * Fixed a CPU usage issue
+
+2.12 - 9/10/2005
+- EverQuest 1
+  * Multithreaded window has been replaced with something that should provide the same effect
+    (window updating while zoning or loading) but without other problems
+
+2.11 - 9/9/2005
+- EverQuest 1
+  * Improved stability (and fixed resolution change issue)
+
+2.11 - 9/8/2005
+- All Games
+  * Fake d3d9.dll and d3d8.dll files in the game directory will now cause WinEQ 2 to pop up a 
+    helpful message instead of just crashing
+- EverQuest 1
+  * Fixed issue with custom eqclient.ini files with the EQ "options editor" (options button from
+    the pre-login menu)
+
+2.11 - 9/2/2005
+- EverQuest 1
+  * Fixed issue that prevented dragging the window (e.g. to move or resize) before the window 
+    is activated (e.g. switching to another app by way of alt+tab, windows key, etc then dragging
+    the game window before the window becomes the active window again)
+
+2.11 - 8/31/2005 pt 2
+- All Games
+  * Fixed Global Bind issue with extended keys (such as Num /, arrow keys, etc)
+- EverQuest 1
+  * Fixed lag issue from earlier patch today
+
+2.11 - 8/31/2005
+- EverQuest 1
+  * Using "Close" on the EQ window will immediately end the process
+
+2.11 - 8/31/2005
+- All Games
+  * Fixed issue with next and previous session keys not opening minimized windows, but still switching
+    to them.  Now the windows will be correctly opened.
+  * WinEQ will now set CPU affinity on multiple-CPU systems (includes hyperthreaded P4, dual core, etc)
+- EverQuest 1
+  * Improved behavior when switching windows
+
+2.10 - 8/30/2005 pt 2
+- EverQuest 1
+  * Fixed issue with manual mouse release and auto-recapturing
+
+2.10 - 8/30/2005
+- EverQuest 1
+  * Fixed separate issue with sticky keys.  This should be the last of them!
+
+2.10 - 8/29/2005 pt 3
+- EverQuest 1
+  * Fixed issue with sticky keys when switching sessions
+
+2.10 - 8/29/2005 pt 2
+- EverQuest 1:
+  * People who exploited Windows to automatically release the mouse from DirectInput (via alt+tab,
+    the windows key, etc) to move the window, minimize it, etc, but could not today will have a
+    much easier time than ever before!
+
+2.10 - 8/29/2005
+- EverQuest 1:
+  * Fixed automatic mouse release during loading and zoning with the new window setting.
+    Subsequently, the automatically released mouse cursor is now VISIBLE when over the EQ window 
+    during the time that it is automatically released.
+
+2.10 - 8/28/2005
+- EverQuest 1:
+  * Fixed crash with Multithreaded Window option enabled on dual CPU (or hyperthreaded P4, or
+    dual core) systems.  The option is now removed, and is always on.  Many people will consider
+    this a "new feature" after never having enabled it :)  This also "fixes" the issue with
+    Alt+F4 leaking into WinEQ 2 from closing other applications while loading or zoning.
+
+2.10 - 8/24/2005
+- Fixed video capture completion crash 
+
+2.10 - 8/15/2005
+- All:
+  * Fixed issue with runaway windows on dual monitor systems
+
+2.09 - 8/12/2005
+- Potentially fixed issue with XFire
+- EverQuest 1:
+  * Fixed EQPlayNice crash issue with unsupported client versions
+
+2.09 - 8/8/2005
+- Everquest 1:
+  * The Options Editor (which you get to by clicking Options from the EQ menu before logging in)
+    settings now correctly apply to the eqclient.ini file assigned by the current WinEQ profile, 
+    and now also uses the same resolution WinEQ uses (instead of being ignored by WinEQ)
+
+2.09 - 8/3/2005
+- Dark Age of Camelot:
+  * Fixed window scale + targeting bug for Catacombs engine-enabled clients.  Make sure to set the
+    client version in your WinEQ 2 profile to Catacombs!
+
+2.09 - 8/1/2005
+- All:
+  * Tiling works better.  Hitting the tiling hotkey will toggle the current session in and out of
+    tiled mode
+  * When using window preset hotkeys, pressing the hotkey for the current preset will now revert to
+    the previous preset
+
+2.08 update 7/18/2005
+- Dark Age of Camelot:
+  * Fixed bug with not properly applying window scale for targeting
+
+2.08 update 6/2/2005
+- EverQuest:
+  * Fixed bug where WinEQ caused the game to default to 800x600 resolution until changed in-game.
+
+2.08:
+- Potentially fixed issue where WinEQ would not run games on some systems...
+- EverQuest:
+  * Patching is once again enabled. There was much rejoicing
+
+2.07 update 4/10/2005:
+- Fixed framerate issue and overlay display issue with multi-pass effects in Direct3D
+  (for example, Dark Age of Camelot water effect)
+
+2.07 update 3/21/2005:
+- EverQuest II:
+  * Fixed issue with chat box typing (lack of enter + backspace)
+
+2.07 update 3/21/2005:
+- All:
+  * Fixed framerate issue with memory indicator
+
+2.07 update 3/19/2005:
+- EverQuest II:
+  * Added support for test server, and optional patching
+
+2.07 update 3/19/2005:
+- All:
+  * Fixed Picture-in-Picture custom location bug
+
+2.07 update 2/15/2005:
+- EverQuest patching updated for "EQ.exe" rather than "EverQuest.exe"
+
+2.07 update:
+- EverQuest (2.07a):
+  * New Multithreaded Window option allows the window to update while loading or zoning, but may
+    cause crashes on some systems when switching windows (off by default)
+  * Memory warnings optional
+- EverQuest II:
+  * Memory warnings optional
+
+2.07
+- All:
+  * Fixed problem with using non-"Normal" default preset
+  * Fixed video capture CPU usage issue
+- Dark Age of Camelot (1.04)
+  * Fixed minor framerate loss
+- EverQuest (2.07)
+  * Fixed minor framerate loss
+  * Fixed Alt+Enter changing the appearance of the window
+- EverQuest II (1.04)
+  * Fixed minor framerate loss
+  * Fixed issue that prevented scroll lock from working
+- Warcraft III (1.04)
+  * Fixed minor framerate loss
+- World of Warcraft (1.04)
+
+2.06
+- All:
+  * Fixed print screen button handling. Screenshots work fine in WoW and EQ2 now.
+- Dark Age of Camelot (1.03)
+- EverQuest (2.06):
+  * Changed mouse handling when releasing/recapturing to be a bit more friendly as far as cursor 
+    positioning
+- EverQuest II (1.03)
+- Warcraft III (1.03)
+- World of Warcraft (1.03)
+
+2.05
+- All:
+  * Fixed image quality degradation previously caused by Pre-shrinking video captures.
+    Pre-shrunk video captures should now be nearly indistinguishable from ones that were not,
+    and pre-shrinking is now on by default
+  * Fixed crash issues with video captures
+  * Video encoding process is now switched to lower priority to allow the game to run better
+    during that time.  At the end of encoding, a message will pop up in WinEQ sessions saying
+    the encoding is completee
+- Dark Age of Camelot (1.02)
+- EverQuest (2.05):
+  * Fixed lockup from using context menu hotkey
+  * Fixed problem when using viewport
+- EverQuest II (1.02)
+- Warcraft III (1.02)
+- World of Warcraft (1.02)
+
+11/23/2004
+- Added a complete dump of loaded modules to SysInfo.txt, removed modules.txt usage
+- EverQuest:
+  * Moved default position of the window from 4 pixels down to 15 pixels down.  Consequently,
+    this will allow people who dont realize their monitor settings arent showing the very top of 
+    the display to move the window.  The other games are left at 4 pixels down by default...
+
+11/21/2004
+- Implemented a workaround for Xfire users, which works for the current version of Xfire
+
+2.04
+- All:
+  * Added optional SOUND capturing during video captures
+  * Fixed issue where video capturing for less than 1 second would crash your game
+- Dark Age of Camelot (1.01)
+- EverQuest (2.04)
+- EverQuest II (1.01)
+- Warcraft III (1.01)
+- World of Warcraft (1.01)
+
+11/18/2004
+- EverQuest:
+  * Replaced special handling that allowed the EQ window to draw correctly during zoning, but
+    fixed the old black screen/reset device failed issues
+  * Removed automatic mouse release during loading, zoning, and high lag to solve crashes
+
+2.03
+- All:
+  * Added video capturing ability for subscribers.  This system is very easy to use, and quite
+    configurable.  The resulting video is encoded to WMV format.  * Requires Windows Media Player 9 or
+    later
+- Dark Age of Camelot (1.00 B6)
+- EverQuest (2.03):
+  * Removed special handling that allowed the EQ window to draw correctly during zoning, consequently
+    solving most of the black screen/reset device failed issues, etc
+  * Fixed issue with sticky keys. Consequently, all keys you were holding at the time of switching
+    to a new window will have to be re-pressed if you wish to use them again.  This means, for example,
+    that if you usually hold CTRL+ALT and tapping X to switch between sessions with the default hotkeys,
+    you now will only switch once.  You must let go of CTRL+ALT and press them again.
+  * Implemented automatic mouse release during loading, zoning, and high lag (same as WinEQ 1.38)
+  * Possibly fixed issue with compatability with MQ2 that essentially pressed every key
+- EverQuest II (1.00 B4)
+  * Fixed dual monitor support
+- Warcraft III (1.00 B4):
+  * Added configurable hotkeys to use any of the 6 items on your hero.  This allows you, for example, to
+    hit F1 instead of numpad 7 to use an item, which may be much easier to manage
+- World of Warcraft (1.00 B4):
+  * Fixed many of the "crashes" when quitting the game
+  * Fixed dual monitor support
+  
+11/10/2004
+(Note: New versions not necessary for these updates)
+- All:
+  * Fixed problem with Lavish.dll not copying to the Windows directory correctly on some systems
+  * Updated WinEQ manual to 2.02
+  * Fixed installer message about not being able to open WinEQ.chm.  The installer now correctly
+    opens the manual upon installation
+- EverQuest:
+  * Hopefully fixed input problems for non-US keyboards.  Note that the WinEQ hotkeys may not
+    work after server selection.  Please let me know if this is the case
+  * Possibly fixed issues with not being able to move the EQ window
+  * May have fixed issues with black screens
+- EverQuest II:
+  * Fixed cursor issues
+  * Fixed double click issue
+- Warcraft III:
+  * Removed logging
+- World of Warcraft:
+  * Fixed in-game resolution switching
+  * Fixed crash on exit
+
+2.02
+- Main Program:
+  * Added manual, which is currently 1 version behind but will be continually updated.  The
+    manual can be read by selecting "WinEQ 2.0 Manual" from the tray program's context menu
+  * Tweaked the communications with our server a little bit
+  * Hovering your mouse over the WinEQ 2.0 tray icon now shows Lite or Pro, and for Pro users
+    shows your MMOTools Subscription expiration date (time shown is EST or GMT-5)
+- All Games:
+  * Fixed various typos in preferences
+  * Added "Create Desktop Shortcut" menu to each game's menu in the tray program, which allows
+    you to create a link on your desktop to open a particular profile directly from your desktop
+- Dark Age of Camelot (1.00 B5)
+- EverQuest (2.02)
+  * Added Alt/Ctrl/Shift/Win indicator below Memory Indicator when enabled.  If you can pinpoint
+    a time when these keys seem to get "stuck" down when they should not be, please report it so
+    we can solve the problem.
+  * Added a hidden "InputDebug" option for non-English locale subscribers to help figure out why
+    their keyboard does not seem to work after server select (edit WinEQ-EQ.ini and add
+    "InputDebug=1" under [General]).  This will pop up text whenever tjey hit a key if they are a
+    subscriber, and we will want information about that from them.
+- EverQuest II (1.00 B3)
+  * Updated for retail
+  * Fixed cursor, it will now take the shape it's supposed to instead of the windows arrow cursor
+- World of Warcraft (1.00 B3)
+  * Sound does not cut out when your World of Warcraft session goes to the background
+- Warcraft III (1.00 B3)
+  
+2.01 - 11/07/2004
+- All Games:
+  * Fixed Websites disappearing from the context menus after changing preferences
+  * Added option to hide specific games from the tray program's menu
+- Dark Age of Camelot (1.00 B4):
+  * Misc fixes
+- EverQuest (2.01):
+  * Implemented warning for NVIDIA users who have Vertex Shaders turned OFF (this can cause
+    reboots/blue screens when multi-boxing)
+- EverQuest II (1.00 B2):
+  * Fixed crash when using full screen emulation
+  * Added two additional default presets (800x600 and 1024x768)
+- World of Warcraft (1.00 B2):
+  * Fixed crash when using full screen emulation
+  * Added two additional default presets (800x600 and 1024x768)
+- Warcraft III (1.00 B2):
+  * Fixed missing entries in the hotkeys list
+
+2.0 Final
+- Main Program:
+  * Changed main context menu a little bit, and added web sites
+  * Lavish Patcher should no longer get stuck in a loop if one of the files is in use
+- All Games:
+  * Fixed problem with hotkeys not loading correctly
+  * Having Picture-in-Picture and Auto-tiling both on should no longer cause problems
+- Dark Age of Camelot:
+  * Misc fixes
+- EverQuest:  
+  * Misc fixes
+- EverQuest II:
+  * Initial public beta for this plugin
+- World of Warcraft:
+  * Initial public beta for this plugin  
+- Warcraft III:
+  * Initial public beta for this plugin
+  
+2.0 RC4
+- Main Program:
+  * Added simple "About" box...
+  * Added option in each game's "General" preferences to expand its category when opening
+    preferences
+- All Games:
+  * Fixed problems with dual monitors
+  * Numpad keys for switching sessions should now work with num lock ON instead of off
+  * Added a per-profile global activation hotkey option
+  * Added warning message for DirectX 9 games if DirectX 9.0c (or later) is not installed
+  * Added a "Modules.txt" log that might help find crash issues that some are experiencing
+  * Made some changes to the overall input system that may help with non-English locales
+- EQPlayNice:
+  * Moved settings from the "EQPlayNice" expandable category into a new "General" category
+    for consistency
+- EverQuest:
+  * Fixed issue with switching OUT of an EQ session 
+  * If the custom EQClient.ini file does not exist, it will be created from the existing
+    EQClient.ini
+  * Using a hotkey that should change the appearance of the window will now update the
+    window immediately instead of waiting for the next reset
+- Dark Age of Camelot:
+  * Fixed issue with profiles (always used default previously)
+  * Added custom USER.DAT option per profile.  This makes the login window remember the
+    information, game resolutions, etc from the last session with that profile
+  * Workaround implemented for playing more than 2 characters on one computer
+  * Added EQPlayNice-style FPS display and limiting for subscribers
+  * Support added and tested for DAOC Classic client
+
+2.0 RC3
+- Fixed patcher system, which was inadvertently disabled in RC2
+- Fixed problem with Global Activation hotkeys causing keys to stick in both games
+
+2.0 RC2
+- Non-subscriber access to the beta has been opened.  Options that do not work for non-
+  subscribers are hidden to reduce confusion (with the exception of the options shown
+  directly in the tray window's options menu. e.g. Automatic Tiling, etc)
+- Version numbers from now on will be tracked separately for each plugin
+- Dark Age of Camelot (1.0 B1):
+  * Dark Age of Camelot support is now included.  We have tested with Trials of Atlantis
+    client.  Please provide feedback on which clients do or do not work, as well as any
+    issues you may find
+- EverQuest (2.0 RC2):
+  * Right clicking anywhere on the window with the mouse released no longer causes the
+    context menu to pop up.  This was a bug.  It will pop up if you right click on the
+    caption bar at the top, though
+  * Misc fixes
+
+2.0 RC1
+- Removed first profile's name and window title lock (may cause your first profile to
+  disappear until you remake it if you already had WinEQ 2.0, sorry!)
+- Added support for Non-English keyboards
+- Fixed problems with keyboard state reset not resetting ctrl/alt/shift
+- Added "right" ctrl and alt keys to the hotkey possibilities (otherwise, left is assumed).  
+  Note that the localized word "Right" (e.g. DROITE in French, etc) is placed BEFORE the 
+  key name, although this may be incorrect for your language
+- Replaced the default Windows context menu (e.g. the one that has Move, Minimize, Close options)
+  with our context menu
+- "Lag" / low framerate issue that began in B5 solved.  EQPlayNice was the culprit, and the
+  problem was that the default mode in foreground was inadvertently being forced to CPU Limiting
+  rather than FPS limiting
+
+2.0 B5
+- Fixed global activation hotkeys
+- Fixed problem with previous/next session keys
+- Memory indicator should correctly display memory above 2GB
+- EQPlayNice integration is now built into WinEQ 2.0.  There is not currently an option to disable
+  it entirely.  With EQPlayNice, WinEQ can now keep the mouse cursor position when releasing or
+  recapturing the mouse, in sync with the game.  Auto-releasing the mouse on window edges would
+  unfortunately take too much processing time and cause unwanted lag, so that is not implemented.
+- Added a few custom resolutions: 125%, 150%, 175%, 200% and 250% of the windows display mode, for
+  people who want to scale the window down (not to mention use up a lot more video RAM and produce
+  more lag!).
+- Added option to prevent the game from changing the gamma, since doing so also changes the gamma of
+  every other window
+- Added process termination on Alt+F4
+- Added option to store current window settings to a preset
+- Fixed the black screen auto-fixing
+- WinEQ should now keep the last-used EQ account per profile just like 1.38
+
+2.0 B4
+- Did a lot of work on mouse handling
+- Made some changes so that the EQ window can update correctly at all times (zoning, loading, etc).
+  Hopefully this doesn't cause too many problems
+- Picture-in-Picture should be fully functional, please report any issues you find with it.  To
+  enable PIP, you must have the option turned on in the tray program (does not currently save), and
+  in each profile you wish to allow the PIP windows in.  Any session can *be* a PIP window whether
+  its option is on or not
+- Tiling should be fully functional, please report any issues you find with it as well.  For auto-
+  tiling, you must enable auto-tiling in the tray program (does not currently save)
+- Minor UI improvements (prefs window and context menus)
+- Made some changes to the text overlay system that will hopefully make it work correctly on the
+  systems it was not working on, and if not it should not cause ridiculous lag anymore
+- WinEQ 2.0 should now take care of black screens caused by Windows screensavers or the login screen
+  automatically (like 1.38)
+- Global hotkeys are implemented, but slightly different from 1.38.  There are 8 global activation
+  hotkeys, by default CTRL+ALT+1 through CTRL+ALT+8.  They can be changed in the hotkeys settings
+  section.  The hotkeys will be assigned by first available as the EQ windows are created.
+- Custom window titles enabled
+
+2.0 B3
+- Added a path selection button for path preferences (e.g. EQ Path)
+- Fixed issue of missing keys in input system (some keys would get stuck down when alt-tabbing
+  with them down, because our input system did not have the information for those keys)
+- "EverQuest" submenu in the tray icon's context menu is now "Launch EverQuest", and the submenu
+  now contains a list of profiles.  The Patch, Test, and Sound options for profiles are now
+  working
+- Implemented Memory Indicator, which is in the new "General" preference category.  Toggling
+  the memory indicator via the hotkey does NOT change the setting for other sessions, but may
+  later
+- Added visible low memory warnings.  You cannot disable these warnings, and they will show at
+  the same time WinEQ 1.38 would have logged "Lowest memory thus far" for both system and 
+  texture memory
+- Preferences window now shows (NOT YET IMPLEMENTED) in the description of settings that are not
+  yet implemented
+- NOTE: The "WinEQ 2.0 Closed Beta - EverQuest" text that is unremovable in the upper left will
+  be removed for the final beta and release
+
+2.0 B2
+- Lots of work done on preferences system, and it is now enabled.  Some preferences are still
+  not entered in this new system that are in the ini file (WinEQ-EQ.ini).
+- Fixed bug where EQ path and a couple other settings were not being kept, which stopped
+  several people from being able to use WinEQ 2.0 B1 at all.
+
+2.0 B1
+- Initial Closed Beta release, nothing to relate "changes" to
